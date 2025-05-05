@@ -313,6 +313,7 @@
           <th>Image</th>
           <th>Name</th>
           <th>Description</th>
+          <th>Quantity</th>
         </tr>
       </thead>
       <tbody>`;
@@ -322,6 +323,7 @@
         <td><img src="${prod.image}" alt="${prod.name}" style="width:60px; height:60px; object-fit:cover; border-radius:4px;"></td>
         <td>${prod.name}</td>
         <td>${prod.description}</td>
+        <td>${prod.Quantity}</td>
       </tr>`;
     });
     html += `</tbody></table>`;
